@@ -4,7 +4,6 @@ import {
   Appear,
   BlockQuote,
   Cite,
-  Code,
   CodePane,
   Deck,
   Fill,
@@ -20,7 +19,7 @@ import {
   Slide
 } from 'spectacle';
 
-import { ListItem, Text } from '../../components';
+import { Code, ListItem, Text } from '../../components';
 
 import notes from './notes';
 

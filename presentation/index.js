@@ -34,10 +34,10 @@ preloader(images);
 
 const theme = createTheme(
   {
-    primary: 'white',
-    secondary: '#1F2022',
+    primary: '#1F2022',
+    secondary: 'white',
     tertiary: '#03A9FC',
-    quartenary: '#CECECE'
+    quartenary: 'white'
   },
   {
     primary: 'Montserrat',
@@ -48,7 +48,12 @@ const theme = createTheme(
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={['zoom']} transitionDuration={500} theme={theme}>
+      <Deck
+        progress="pacman"
+        transition={['zoom']}
+        transitionDuration={500}
+        theme={theme}
+      >
         {Slides}
       </Deck>
     );
