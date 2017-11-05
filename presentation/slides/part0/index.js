@@ -28,10 +28,10 @@ export default [
     {notes.one}
     <Layout>
       <Fill>
-        <Image src={images.airshipMark} />
+        <Image src={images.airshipMark} padding="0 50px" />
       </Fill>
       <Fill>
-        <Image src={images.reactNative} />
+        <Image src={images.reactNative} padding="0 50px" />
       </Fill>
     </Layout>
     <Heading size={1} fit caps lineHeight={1} textColor="secondary">
@@ -48,7 +48,9 @@ export default [
       <ListItem>Code editor of choice (Visual Studio Code, etc.)</ListItem>
       <ListItem>
         Expo XDE (
-        <Link href="https://expo.io/tools">https://expo.io/tools</Link>)
+        <Link href="https://expo.io/tools" textColor="#03A9FC">
+          https://expo.io/tools
+        </Link>)
       </ListItem>
       <ListItem>Expo Client on mobile device</ListItem>
       <ListItem>Create account with Expo</ListItem>
