@@ -1,0 +1,11 @@
+export default class App extends Component {
+  ...
+}
+
+// or
+
+class App extends Component {
+  ...
+}
+
+export default App;

@@ -1,0 +1,9 @@
+// Old Way
+var name = 'Alex';
+
+// New Way
+const name = 'Alex';
+name = 'Adam'; // ERROR
+
+let job = 'Starving Musician';
+job = 'Developer'; // :thumbsup:

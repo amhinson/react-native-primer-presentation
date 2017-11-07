@@ -1,0 +1,5 @@
+const { name, email } = currentUser;
+
+const { FIRSTNAME: firstName } = user;
+
+console.log(firstName);

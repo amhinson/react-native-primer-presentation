@@ -49,6 +49,7 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Deck
+        controls={false}
         progress="pacman"
         transition={['fade', 'zoom']}
         transitionDuration={500}

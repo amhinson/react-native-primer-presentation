@@ -1,0 +1,3 @@
+const welcome = `My name is ${currentUser.name}.`;
+
+console.log(welcome); // My name is Alex.

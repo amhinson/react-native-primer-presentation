@@ -1,0 +1,14 @@
+const currentUser = {
+  name: 'Alex',
+  email: 'alex@teamairship.com'
+};
+
+// Old Way
+const updatedUser = Object.assign(
+  {},
+  currentUser,
+  { role: 'Builder' }
+);
+
+// New Way
+const updatedUser = { ...currentUser, role: 'Builder' };
