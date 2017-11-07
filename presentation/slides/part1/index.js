@@ -94,10 +94,7 @@ export default [
         </ListItem>
       </Appear>
       <Appear>
-        <ListItem textSize="40px">
-          Has hot reloading option so you can update your app without
-          recompiling
-        </ListItem>
+        <ListItem textSize="40px">Over-The-Air updates</ListItem>
       </Appear>
       <Appear>
         <ListItem textSize="40px">
