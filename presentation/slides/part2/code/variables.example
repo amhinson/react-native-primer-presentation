@@ -5,5 +5,5 @@ var name = 'Alex';
 const name = 'Alex';
 name = 'Adam'; // ERROR
 
-let job = 'Starving Musician';
+let job = 'Musician';
 job = 'Developer'; // :thumbsup:

@@ -58,6 +58,27 @@ export default [
   </Slide>,
 
   <Slide>
+    <Heading textSize={70} caps padding="0 0 15px">
+      Course Notes
+    </Heading>
+    <Link
+      href="https://teamairship.github.io/react-native-primer/"
+      textColor="#FFF"
+    >
+      https://teamairship.github.io/react-native-primer/
+    </Link>
+    <Heading textSize={70} caps padding="50px 0 15px">
+      Github Repo
+    </Heading>
+    <Link
+      href="https://github.com/teamairship/react-native-primer"
+      textColor="#FFF"
+    >
+      https://github.com/teamairship/react-native-primer
+    </Link>
+  </Slide>,
+
+  <Slide>
     {notes.three}
     <Heading fit caps>
       Our Experience With Mobile Development

@@ -29,7 +29,7 @@ export default [
     <Heading fit caps>
       What is React Native
     </Heading>
-    <Text textAlign="left" textSize="18">
+    <Text textAlign="left" textSize="42">
       With React Native, you don't build a “mobile web app”, an “HTML5 app”, or
       a “hybrid app”. You build a real mobile app that's indistinguishable from
       an app built using Objective-C or Java. React Native uses the same

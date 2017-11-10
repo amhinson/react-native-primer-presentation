@@ -1,3 +1,5 @@
-const welcome = `My name is ${currentUser.name}.`;
+// Old Way
+var welcome = 'My name is ' + firstName + lastName '.';
 
-console.log(welcome); // My name is Alex.
+// New Way
+...

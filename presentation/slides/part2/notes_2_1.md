@@ -1,2 +1,7 @@
 #### `import`
-* Refactor app to `import React, { Component } ...`
+
+import React from 'react';
+
+import React, { Component } from 'react';
+
+import { Text, View } from 'react-native';

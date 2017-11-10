@@ -11,4 +11,4 @@ const updatedUser = Object.assign(
 );
 
 // New Way
-const updatedUser = { ...currentUser, role: 'Builder' };
+...

@@ -1,5 +1,6 @@
-const { name, email } = currentUser;
+// Old Way
+var email = currentUser.email;
+var name = currentUser.name;
 
-const { FIRSTNAME: firstName } = user;
-
-console.log(firstName);
+// New Way
+...

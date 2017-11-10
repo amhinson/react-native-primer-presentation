@@ -28,7 +28,6 @@ import images from '../assets';
 
 // Require CSS
 require('normalize.css');
-require('spectacle/lib/themes/default/index.css');
 
 preloader(images);
 
@@ -50,7 +49,8 @@ export default class Presentation extends React.Component {
     return (
       <Deck
         controls={false}
-        progress="pacman"
+        contentWidth={1200}
+        progress="none"
         transition={['fade', 'zoom']}
         transitionDuration={500}
         theme={theme}

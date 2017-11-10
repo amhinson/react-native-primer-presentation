@@ -63,6 +63,7 @@ export default [
     {notes.four}
     <Heading>Arrow Functions</Heading>
     <CodePane
+      contentEditable
       source={require('raw-loader!./code/functions.example')}
       lang="javascript"
       textSize="22px"
@@ -72,6 +73,7 @@ export default [
     {notes.five}
     <Heading>Destructuring</Heading>
     <CodePane
+      contentEditable
       source={require('raw-loader!./code/destructuring.example')}
       lang="javascript"
       textSize="26px"
@@ -81,6 +83,7 @@ export default [
     {notes.six}
     <Heading>Object Spread</Heading>
     <CodePane
+      contentEditable
       source={require('raw-loader!./code/objectSpread.example')}
       lang="javascript"
       textSize="22px"
@@ -90,9 +93,11 @@ export default [
     {notes.seven}
     <Heading>Template Literals</Heading>
     <CodePane
+      contentEditable
       source={require('raw-loader!./code/templateLiterals.example')}
       lang="javascript"
       textSize="26px"
+      theme="dark"
     />
   </Slide>,
   <Slide />
