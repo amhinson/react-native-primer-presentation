@@ -2,8 +2,4 @@
 var name = 'Alex';
 
 // New Way
-const name = 'Alex';
-name = 'Adam'; // ERROR
-
-let job = 'Musician';
-job = 'Developer'; // :thumbsup:
+...

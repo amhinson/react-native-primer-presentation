@@ -54,6 +54,7 @@ export default [
     {notes.three}
     <Heading>const / let</Heading>
     <CodePane
+      contentEditable
       source={require('raw-loader!./code/variables.example')}
       lang="javascript"
       textSize="22px"
@@ -100,5 +101,13 @@ export default [
       theme="dark"
     />
   </Slide>,
-  <Slide />
+  <Slide />,
+  <Slide>
+    <Heading textSize="60px">Instagram</Heading>
+    <Text padding="0 0 35px">@teamairship</Text>
+    <Heading textSize="60px">Facebook</Heading>
+    <Text padding="0 0 35px">Airship</Text>
+    <Heading textSize="60px">Twitter</Heading>
+    <Text padding="0 0 35px">@teamairship</Text>
+  </Slide>
 ];

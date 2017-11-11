@@ -1,5 +1,13 @@
 #### `const` and `let`
 
+**EDIT CODE ON SLIDE**
+
+const name = 'Alex';
+name = 'Adam'; // ERROR
+
+let job = 'Musician';
+job = 'Developer';
+
 Replacements for `var`
 
 `const` is a signal that the identifier won’t be reassigned.
