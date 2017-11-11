@@ -1,5 +1,5 @@
 // Old Way
-var welcome = 'My name is ' + firstName + lastName '.';
+var welcome = 'My name is ' + firstName + ' ' + lastName '.';
 
 // New Way
 ...
